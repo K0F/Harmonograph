@@ -6,10 +6,10 @@ import netP5.*;
 
 int port = 7777;
 
-String names[] = {"x","y","r","g","b","num","sin1","sin2","sin3","sin4","uhel0",
-"uhel1","uhel2","uhel3","uhel4","uhel5","uhel6","uhel7","uhel8","uhel9",
-"delka0","delka1","delka2","delka3","delka4","delka5","delka6","delka7","delka8","delka9",
-"zivot"};
+String names[] = {"x","y","r","g","b","num","sin1","sin2","sin3","sin4","angle0",
+"angle1","angle2","angle3","angle4","angle5","angle6","angle7","angle8","angle9",
+"length0","length1","length2","length3","length4","length5","length6","length7","length8","length9",
+"life"};
 
 
 ControlP5 controlP5;
