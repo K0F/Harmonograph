@@ -1,2 +1,3 @@
-[[Harmonograph sketch]]
-[CAS @ ZKM Karlsruhe]
+Harmonograph sketch
+==================
+CAS @ ZKM Karlsruhe
