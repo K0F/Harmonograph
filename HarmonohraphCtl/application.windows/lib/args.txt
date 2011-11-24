@@ -1,3 +1,0 @@
- -Xms64m -Xmx1024m
-HarmonohraphCtl
-HarmonohraphCtl.jar,core.jar,controlP5.jar,oscP5.jar
