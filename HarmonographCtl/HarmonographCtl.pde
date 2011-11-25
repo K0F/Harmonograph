@@ -27,6 +27,7 @@ NetAddress myNetAddress = new NetAddress("10.1.0.255",port);
 /* the broadcast port is the port the clients should listen for incoming messages from the server*/
 float val[];
 
+
 /**
  * oscP5multicast by andreas schlegel
  * example shows how to send osc via a multicast socket.

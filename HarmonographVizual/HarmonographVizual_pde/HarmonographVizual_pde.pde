@@ -41,6 +41,7 @@ void setup() {
 
   size(1024, 768, P2D);
   
+  
   frame.setLocation(1600,0);
 
   oscP5 = new OscP5(this, "10.1.0.255", port);
