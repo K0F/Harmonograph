@@ -22,11 +22,10 @@ int sliderTicks2 = 30;
 OscP5 oscP5;
 
 
-//NetAddress myNetAddress = new NetAddress("192.168.1.255",port);
+NetAddress myNetAddress = new NetAddress("239.0.0.1",port);
 /* listeningPort is the port the server is listening for incoming messages */
 /* the broadcast port is the port the clients should listen for incoming messages from the server*/
 float val[];
-
 
 /**
  * oscP5multicast by andreas schlegel
@@ -44,7 +43,7 @@ boolean controlling = false;
 void setup() {
   size(400,720,P2D);
   controlP5 = new ControlP5(this);
-  oscP5 = new OscP5(this,"192.168.1.255",7777);
+  oscP5 = new OscP5(this,"10.1.0.255",7777);
   
   frameRate(25);
   

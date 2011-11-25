@@ -30,16 +30,24 @@ int num = 10;
 
 float speedUP;
 
+void init(){
+  
+  
+   
+   super.init(); 
+  
+}
+
 void setup() {
 
   size(800, 600, P2D);
 
-  oscP5 = new OscP5(this, "239.0.0.1", port);
+  oscP5 = new OscP5(this, "192.168.1.255", port);
   
   minim = new Minim(this);
   minim.debugOn();
 
-
+  frame.setLocation(0,0);
 
  for(int i =0 ; i < val.length ;i++){
    val[i] = 128; 
