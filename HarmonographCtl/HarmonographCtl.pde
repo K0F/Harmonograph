@@ -22,7 +22,7 @@ int sliderTicks2 = 30;
 OscP5 oscP5;
 
 
-NetAddress myNetAddress = new NetAddress("239.0.0.1",port);
+NetAddress myNetAddress = new NetAddress("10.1.0.255",port);
 /* listeningPort is the port the server is listening for incoming messages */
 /* the broadcast port is the port the clients should listen for incoming messages from the server*/
 float val[];
