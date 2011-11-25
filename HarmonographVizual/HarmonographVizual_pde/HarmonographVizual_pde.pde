@@ -43,7 +43,7 @@ void setup() {
   
   frame.setLocation(1024,0);
 
-  oscP5 = new OscP5(this, "239.0.0.1", port);
+  oscP5 = new OscP5(this, "10.1.0.255", port);
   
   minim = new Minim(this);
   minim.debugOn();

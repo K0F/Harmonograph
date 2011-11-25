@@ -43,7 +43,7 @@ boolean controlling = false;
 void setup() {
   size(400,720,P2D);
   controlP5 = new ControlP5(this);
-  oscP5 = new OscP5(this,"239.0.0.1",7777);
+  oscP5 = new OscP5(this,"10.1.0.255",7777);
   
   frameRate(25);
   
